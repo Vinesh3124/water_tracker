@@ -1,0 +1,85 @@
+.cardContainer{
+    width: 30%;
+    height: 80vh;
+    border: 1px solid #444f55;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 33px;
+    background: #444f55;
+    box-shadow:  -18px 18px 30px #343d41,
+                18px -18px 30px #546169;
+}
+
+.cardImage{
+    width: 40%;
+    height: 25vh;
+    margin: auto;
+    border: 1px solid #444f55;
+    margin-top: 5%;
+    border-radius: 50%;
+    background: #444f55;
+    box-shadow:  -18px 18px 30px #343d41,
+                18px -18px 30px #546169;
+}
+
+.amountBox, .btnBox, .textHead{
+    width: 80%;
+    height: 50px;
+    color: white;
+    border: 1px solid #444f55;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 10px;
+    background: #444f55;
+    box-shadow:  -16px 16px 32px #394247,
+                 16px -16px 32px #4f5c63;
+}
+
+.amountBox_text{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.btnBox{
+    display: flex;   
+}
+
+.btnBox>button{
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #5a6266;
+}
+
+.btnBox>button:nth-child(1):hover{
+    background-color: green;
+    color: white;
+}
+
+.btnBox>button:nth-child(2):hover{
+    background-color: red;
+    color: white;
+}
+
+.textHead{
+    text-align: center;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.dateContainer{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+}
